@@ -87,6 +87,14 @@ zM: Fold all
 <C-q>: Send to quick fix list
 ```
 
+### Obatining File Path
+
+```
+<leader>pr: Relative path to paste
+<leader>pf: Abs path to paste
+<leader>pn: Filename to paste
+```
+
 ### Smart Parentheses
 
 `*` represents the cursor position
