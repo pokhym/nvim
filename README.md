@@ -115,6 +115,17 @@ dd: Delete bookmarks
 <C-k>: Focus bookmarks window
 ```
 
+### Scratch Files
+
+Seems to only work with the actual commands and not shortcuts
+
+Command Description
+
+- `Scratch`: Creates a new scratch file in the specified scratch_file_dir directory in your configuration.
+- `ScratchWithName`: Allows the creation of a new scratch file with a user-specified filename, including the file extension.
+- `ScratchOpen`: Opens an existing scratch file from the scratch_file_dir.
+- `ScratchOpenFzf`: Uses fuzzy finding to search through the contents of scratch files and open a selected file.
+
 ### Obatining File Path
 
 ```
@@ -366,6 +377,11 @@ After a specified delay show what key combinations are available and their short
 
 Lives in `lua/pokhym/plugins/bookmarks.lua`.
 Stores bookmarks for code locations with descriptions and tags.
+
+### `scratch.nvim`
+
+Lives in `lua/pokhym/plugins/scratch.lua`.
+Creates scratch files.
 
 ### Language Server Stuff
 
