@@ -4,6 +4,9 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 	callback = function()
 		vim.api.nvim_set_hl(0, "Comment", { fg = "#aaaaaa" })
 		vim.api.nvim_set_hl(0, "@comment", { link = "Comment" })
+		vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "yellow", bold = false })
+		-- vim.api.nvim_set_hl(0, "LineNr", { fg = "white", bold = true })
+		vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "orange", bold = false })
 	end,
 })
 
