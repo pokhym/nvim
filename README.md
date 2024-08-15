@@ -8,6 +8,8 @@ The contents of this folder should be stored in `~/.config/nvim`.
 
 ## Notes
 
+### clang-format and -Wall
+
 To change the C/C++ .clang-format file generate one
 
 ```
@@ -16,6 +18,15 @@ $ clang-format -style=file -dump-config > .clang-format
 
 And change the lin "Standard: Latest" to for example "Standard: C++03".
 This file then needs to be in the directory of the file you are applying the clang-format to
+
+### When 'dd' overwrites the 'y' preventing a 'p'
+
+```
+"0p
+- ": Allows you to see what registers contain what (0-9)
+- 0: Chooses register 0 (should be what was yanked)
+- p: Paste as normal
+```
 
 ## Cheatsheet
 
