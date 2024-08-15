@@ -100,6 +100,21 @@ zM: Fold all
 <C-r>+0-9: Choose and paste a register when window is up (insert mode)
 ```
 
+### Bookmarks
+
+```
+// Global shortcuts
+<tab><tab>: (Global) Open bookmarks menu
+<leader>ba: Add bookmark
+<leader>bg: Add global bookmark
+// Bookmarks shortcuts (when open)
+q: Quit bookmarks
+dd: Delete bookmarks
+<space><space>: Ordering type (freq or time)
+<C-j>: Focus tags window
+<C-k>: Focus bookmarks window
+```
+
 ### Obatining File Path
 
 ```
@@ -346,6 +361,11 @@ Maximizes and un-maximizes a window.
 
 Lives in `lua/pokhym/plugins/which-key.lua`.
 After a specified delay show what key combinations are available and their shortcuts.
+
+### `bookmarks.nvim`
+
+Lives in `lua/pokhym/plugins/bookmarks.lua`.
+Stores bookmarks for code locations with descriptions and tags.
 
 ### Language Server Stuff
 
