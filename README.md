@@ -97,6 +97,7 @@ zM: Fold all
 <C-k>: Up result
 <C-j>: Down result
 <C-q>: Send to quick fix list
+<C-r>+0-9: Choose and paste a register when window is up (insert mode)
 ```
 
 ### Obatining File Path
