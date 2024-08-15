@@ -153,7 +153,7 @@ s: In visual mode substitutes  default register
 gR: Show LSP references
 gD: Go to declaration
 gd: Telescope LSP definitions
-gi: Telesop LSP implementations
+gi: Telescope LSP implementations
 gt: Telescope LSP type definitions
 <leader>ca: See available code actions
 <leader>rn: Smart rename
