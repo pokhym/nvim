@@ -81,6 +81,7 @@ zM: Fold all
 <leader>fs: Find string in cwd
 <leader>fc: Find string under cursor in cwd
 <leader>ft: Find TODOs
+<leader>fb: Find string in current buffer
 // When in telescope's search window
 <C-k>: Up result
 <C-j>: Down result
