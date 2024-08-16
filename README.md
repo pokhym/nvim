@@ -104,7 +104,7 @@ zM: Fold all
 
 ```
 // Global shortcuts
-<tab><tab>: (Global) Open bookmarks menu
+<leader><tab><tab>: (Global) Open bookmarks menu
 <leader>ba: Add bookmark
 <leader>bg: Add global bookmark
 // Bookmarks shortcuts (when open)

@@ -10,7 +10,7 @@ return {
 			storage_dir = "", -- Default path: vim.fn.stdpath("data").."/bookmarks,  if not the default directory, should be absolute path",
 			mappings_enabled = true, -- If the value is false, only valid for global keymaps: toggle、add、delete_on_virt、show_desc
 			keymap = {
-				toggle = "<tab><tab>", -- Toggle bookmarks(global keymap)
+				toggle = "<leader><tab><tab>", -- Toggle bookmarks(global keymap)
 				close = "q", -- close bookmarks (buf keymap)
 				add = "<leader>ba", -- Add bookmarks(global keymap)
 				add_global = "<leader>bg", -- Add global bookmarks(global keymap), global bookmarks will appear in all projects. Identified with the symbol '󰯾'
