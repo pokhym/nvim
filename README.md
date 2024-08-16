@@ -53,6 +53,7 @@ gbc: Comment line with block
 ### Window Management
 
 ```
+:vs#: Re-opens the last closed buffer
 <leader>s(v/h): Split horizontally or vertically
 <leader>se: Make splits equal size
 <leader>sx: Close current split
@@ -177,6 +178,7 @@ s: In visual mode substitutes  default register
 
 ```
 // LSP (lspconfig.lua)
+gS: Show all LSP symbols
 gR: Show LSP references
 gD: Go to declaration
 gd: Telescope LSP definitions
