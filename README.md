@@ -203,6 +203,12 @@ K: Show documentation for what is under the cursor
 <leader>ws: Save session
 ```
 
+### Function Context
+
+```
+[c: Jump to the top of the function context
+```
+
 ### TODOs
 
 ```
@@ -382,6 +388,11 @@ Stores bookmarks for code locations with descriptions and tags.
 
 Lives in `lua/pokhym/plugins/scratch.lua`.
 Creates scratch files.
+
+### `nvim-treesitter-context`
+
+Lives in `lua/pokhym/plugins/nvim-treesitter-contet.luat`.
+Shows the function name at the top of the window.
 
 ### Language Server Stuff
 
