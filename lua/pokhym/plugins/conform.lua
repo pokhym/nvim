@@ -1,8 +1,10 @@
 return {
-  "stevearc/conform.nvim",
-  event = { "BufReadPre", "BufNewFile" },
-  config = function()
-    local conform = require("conform")
+	"stevearc/conform.nvim",
+	event = { "BufReadPre", "BufNewFile" },
+	-- Undo this after neovim gets updated to v0.10.0
+	tag = "v7.0.0",
+	config = function()
+		local conform = require("conform")
 
     conform.setup({
       formatters_by_ft = {
