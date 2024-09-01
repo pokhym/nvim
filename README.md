@@ -150,6 +150,13 @@ Command Description
     'change quot*es'            cs'"            "change quotes"
     <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1>
     delete(functi*on calls)     dsf             function calls
+
+In VISUAL MODE with text hilighted use 'S<key>' to surround
+the highlighed text with the selected key.
+In the following example let the 'v' surround the highlighted text.
+Let the key combination be 'S$'
+
+ASvDFJKvL -> AS$DFJK$L
 ```
 
 ### Substitute
