@@ -8,6 +8,10 @@ The contents of this folder should be stored in `~/.config/nvim`.
 
 ## Notes
 
+### mason install
+
+Make sure to have `python3-venv` installed or else python3 will exit with code 1 signal 0.
+
 ### clang-format and -Wall
 
 To change the C/C++ .clang-format file generate one
