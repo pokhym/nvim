@@ -337,6 +337,11 @@ Please refer to `https://github.com/mfussenegger/nvim-lint?tab=readme-ov-file#av
 Lives in `lua/pokhym/plugins/lualine.lua`.
 A status bar for `nvim`.
 
+### `noice`
+
+Lives in `lua/pokhym/plugins/noice.lua`.
+It adds some GUI improvements to things like the command line and notifications to mimic other text editors.
+
 ### `nvim-cmp`
 
 Lives in `lua/pokhym/plugins/nvim-cmp.lua`.
