@@ -1,5 +1,6 @@
 -- make comma the leader key
 vim.g.mapleader = ","
+vim.g.maplocalleader = "."
 
 local keymap = vim.keymap
 
@@ -22,3 +23,6 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 keymap.set("n", "<leader>pr", '<cmd>let @+ = expand("%")<CR>', { desc = "Copy relative path to unnamed register" })
 keymap.set("n", "<leader>pf", '<cmd>let @+ = expand("%:p")<CR>', { desc = "Copy full path to unnamed register" })
 keymap.set("n", "<leader>pn", '<cmd>let @+ = expand("%:t")<CR>', { desc = "Copy filename to unnamed register" })
+
+-- Start grug
+keymap.set("n", "<leader>gr", "<cmd>GrugFar<CR>", { desc = "Start GrugFar" })

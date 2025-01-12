@@ -2,9 +2,12 @@
 
 This is my `neovim` configuration.
 `<leader>` represents leader.
+`<llocalleader` represents the local leader in the currently open window eg. `grug-far`.
 This uses `Lazy` plugin loader access the menu via `:Lazy`.
 This is a slightly tweaked version of `https://github.com/mfussenegger/nvim-lint?tab=readme-ov-file#available-linters`.
 The contents of this folder should be stored in `~/.config/nvim`.
+
+Please make sure `ripgrep` (`r`) is installed for certain features.
 
 ## Notes
 
@@ -91,6 +94,8 @@ zM: Fold all
 ### Workspace Search
 
 ```
+// (grug-far.lua)
+<leader>gf: Start grug-far
 // (telescope.lua)
 <leader>ff: Fuzzy find files in cwd
 <leader>fr: Fuzzy find in recent files
@@ -320,6 +325,14 @@ Some aesthetic changes.
 Lives in `lua/pokhym/plugins/gitsigns.lua`.
 Used for git integration.
 Note, a "hunk" is a set of contiguous lines that was modified.
+
+### `grug-far`
+
+Lives in `lua/pokhym/plugins/grug-far.lua`.
+Used for easy search and replace.
+`<localleader>` is used within the `grug-far` window to perform actions.
+For instance closing, replacing or applying.
+Further help menu exists within the `grug-far` menu so shortcuts will not be listed in the cheatsheet below
 
 ### `indent-blankline`
 
