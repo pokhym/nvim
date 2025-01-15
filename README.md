@@ -252,6 +252,23 @@ K: Show documentation for what is under the cursor
 <leader>hd: Diff this
 ```
 
+### smart-splits
+
+```
+<A-h>: Resize left
+<A-j>: Resize down
+<A-k>: Resize up
+<A-l>: Resize right
+<C-h>: Move to left window
+<C-j>: Move to down window
+<C-k>: Move to up window
+<C-l>: Move to right window
+<leader><leader>h: Swap buffer left
+<leader><leader>j: Swap buffer down
+<leader><leader>k: Swap buffer up
+<leader><leader>l: Swap buffer right
+```
+
 ## Requirements
 
 The following must be done in order for this configuration to work correctly
@@ -419,6 +436,11 @@ Stores bookmarks for code locations with descriptions and tags.
 
 Lives in `lua/pokhym/plugins/scratch.lua`.
 Creates scratch files.
+
+### `smart-splits`
+
+Lives in `lua/pokhym/plugins/smart-splits.lua`.
+Allows for better resizing of buffers and swapping them.
 
 ### `nvim-treesitter-context`
 
