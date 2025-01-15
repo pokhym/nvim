@@ -269,6 +269,17 @@ K: Show documentation for what is under the cursor
 <leader><leader>l: Swap buffer right
 ```
 
+### registers.nvim
+
+```
+In NORMAL and VISUAL mode
+
+": Will open a pane to choose a register.  We can then use for eaxmple 1p to paste the first register
+
+In INSERT mode
+<C-R>: Will open a pane to choose a register.  Pressing the register name will paste it directly
+```
+
 ## Requirements
 
 The following must be done in order for this configuration to work correctly
@@ -390,6 +401,11 @@ The completion sources are obtained by 3rd party dependencies as described in th
 
 Lives in `lua/pokhym/plugins/nvim-tree.lua`.
 File browser tree view.
+
+### `registers.nvim`
+
+Lives in `lua/pokhym/plugins/registers.lua`.
+Register viewer and picker.
 
 ### `substitute`
 
