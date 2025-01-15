@@ -26,3 +26,12 @@ keymap.set("n", "<leader>pn", '<cmd>let @+ = expand("%:t")<CR>', { desc = "Copy 
 
 -- Start grug
 keymap.set("n", "<leader>gr", "<cmd>GrugFar<CR>", { desc = "Start GrugFar" })
+
+-- FIXME: Double clicking it still pastes??
+-- Disable middle mouse paste
+-- https://neovim.io/doc/user/change.html
+-- :map <MiddleMouse> <Nop>
+-- :imap <MiddleMouse> <Nop>
+keymap.set("n", "<MiddleMouse>", "<Nop>", { desc = "Disable middle mouse button" })
+keymap.set("i", "<MiddleMouse>", "<Nop>", { desc = "Disable middle mouse button" })
+keymap.set("v", "<MiddleMouse>", "<Nop>", { desc = "Disable middle mouse button" })
