@@ -110,7 +110,7 @@ zM: Fold all
 <C-r>+0-9: Choose and paste a register when window is up (insert mode)
 ```
 
-### Bookmarks
+### (DISABLED) Bookmarks
 
 ```
 // Global shortcuts
@@ -443,7 +443,7 @@ Maximizes and un-maximizes a window.
 Lives in `lua/pokhym/plugins/which-key.lua`.
 After a specified delay show what key combinations are available and their shortcuts.
 
-### `bookmarks.nvim`
+### (DISABLED) `bookmarks.nvim`
 
 Lives in `lua/pokhym/plugins/bookmarks.lua`.
 Stores bookmarks for code locations with descriptions and tags.
