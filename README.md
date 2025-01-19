@@ -125,6 +125,15 @@ dd: Delete bookmarks
 <C-k>: Focus bookmarks window
 ```
 
+### arrow
+
+```
+; Opens the project level menu
+m Opens the buffer level menu
+
+Instructions from there on are self explanatory for marking/bookmarking things
+```
+
 ### Scratch Files
 
 Seems to only work with the actual commands and not shortcuts
@@ -315,6 +324,12 @@ Below is a description of the plugins that are being installed, what files they 
 Lives in `lua/pokhym/plugins/alpha.lua`.
 Used to display the welcome message with some shortcuts that may be used in the startup menu.
 This only works in `nvim` is started without any arguments.
+
+### `arrow`
+
+Lives in `lua/pokhym/plugins/arrow`.
+Used to bookmark files and lines in files with its project/buffer menu.
+Additionally it will update the position of the marks as you save!
 
 ### `auto-session`
 
